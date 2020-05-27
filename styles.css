@@ -1,0 +1,139 @@
+body{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.logo{
+    display: block;
+   margin-left: 40%;
+   margin-right: auto;
+    padding-top: 80px;
+}
+
+.tagline{
+    padding-top: 30px;
+    color: hsl(0, 0%, 59%);
+    font-size: 45px;
+}
+.soon{
+    color: hsl(209, 33%, 12%);
+    display: inline;
+    font-weight: 700;
+}
+
+.subscribe{
+    text-align: center;
+    color: hsl(209, 33%, 12%);
+    font-weight: 600;
+}
+
+input{
+    margin-top: 30px;
+    width: 65%;
+    height: 40px;
+    margin-right: 10px;
+    border: none; /* <-- This thing here */
+    border:solid 1px hsl(0, 0%, 59%);
+    border-radius: 20px;
+    color: hsl(0, 0%, 59%);
+    padding-left: 30px;
+}
+
+input.invalid{
+    /* margin-top: 30px;
+    width: 65%;
+    height: 40px;
+    margin-right: 10px;
+    border: none; /* <-- This thing here */
+    /* border:solid 1px hsl(0, 0%, 59%); */
+    /* border-radius: 20px;
+    color: hsl(0, 0%, 59%);
+    padding-left: 30px;  */
+    border:solid 2px hsl(354, 100%, 66%);
+}
+.btn{
+    width: 30%;
+    border-radius: 20px;
+    font-size: 17px;
+}
+.pic{
+    padding-top: 50px;
+    margin-left: 30px;
+}
+
+.icons{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.logo1{
+    margin-left: 200px;
+}
+
+.foot{
+    font-size: 10px;
+    margin-top:20px;
+    margin-left: 30%;
+    color: hsl(0, 0%, 59%);
+    padding-bottom: 10px;
+}
+.error{
+    padding-left: 30px;
+    font-size: 12px;
+    font-style: italic;
+    color: hsl(354, 100%, 66%);
+}
+
+/* Responsive design */
+@media(max-width:700px){
+    .tagline{
+        margin-left: 20%;
+        font-size: 15px;
+    }
+
+    .subscribe{
+        padding-top: 20px;
+        margin-left: 12%;
+        font-size: 13px;
+    }
+
+    input{
+        margin-right: 0;
+        width: 120%;
+    }
+
+    input.invalid{
+        margin-right: 0;
+        width: 120%;
+    }
+
+    .btn{
+        margin-top: 20px;
+        width:120%;
+    }
+
+    .pic{
+        height: 270px;
+        width: 270px;
+        margin-left: 0;
+    }
+
+    .icons{
+        display: inline-block;
+        margin-left: 0;
+        margin-right: auto;
+        margin-top: 50px;
+        padding: 2px;
+    }
+
+    .logo1{
+        margin-left: 40%;
+    }
+
+    .foot{
+        margin-left: 14%;
+        padding-bottom: 10px;
+
+    }
+}

@@ -1,2 +1,3 @@
-# Ping-coming-soon-page
-Check out the page here: 
+# Frontend Mentor - Ping coming soon page
+
+![Design preview for the Ping coming soon page coding challenge](./design/desktop-preview.jpg)
